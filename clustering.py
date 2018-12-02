@@ -4,14 +4,14 @@ import pandas as pd
 import matplotlib.pyplot as matplt
 
 
-# Define k-means class
+# Define K-Means class
 class KM:
     
     def __init__(self, df):
         
         self.df = df
     
-    # Define clustering function: it takes a dataframe and performs a clustering of its rows (i.e.
+    # Define clustering function: it takes a dataframe and performs a K-Means clustering of its rows (i.e.
     # assigning a cluster to each row), and returns a group of clusters (a dictionary of lists)
     def clustering(self, n_clusters):
         
@@ -38,7 +38,7 @@ class KM:
         return clust_dict
         
         
-    # Define find_elbow function: it takes a dataframe, and performs k-means clustering of its rows
+    # Define find_elbow function: it takes a dataframe, and performs K-Means clustering of its rows
     # with different values of k, plotting the sum of squared distances vs the number of clusters
     def find_elbow(self):
         
@@ -53,7 +53,7 @@ class KM:
         matplt.show()
         
 
-# Define jaccard similarity class
+# Define Jaccard Similarity class
 class JS:
     
     def __init__(self, clust_dict1, clust_dict2):
@@ -61,8 +61,8 @@ class JS:
         self.clust_dict1 = clust_dict1
         self.clust_dict2 = clust_dict2
         
-    # Define jaccard function: it takes two groups of clusters (two dictionaries of lists),
-    # computes the jaccard similarity scores among them, and returns the similarity matrix
+    # Define __jaccard__ function: it takes two groups of clusters (two dictionaries of lists),
+    # computes the Jaccard Similarity scores among them, and returns the similarity matrix
     def __jaccard__(clust_dict1, clust_dict2):
         
         # Initialize the similarity matrix, filling it with 0s
@@ -83,7 +83,7 @@ class JS:
         # Return similarity matrix
         return sim_matrix
         
-    # find_top_3 function: it returns the 3 most similar pairs (tuples) of clusters in the two
+    # Define find_top_3 function: it returns the 3 most similar pairs (tuples) of clusters in the two
     # different groups of clusters
     def find_top_3(self):
         
