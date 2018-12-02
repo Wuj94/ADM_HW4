@@ -77,9 +77,6 @@ class JS:
                 n_uni = len(union)
                 sim_matrix[cl1][cl2] = n_int/n_uni
                 
-        print("\n\nSimilarity matrix:\n")
-        print(sim_matrix)
-                
         # Return similarity matrix
         return sim_matrix
         
