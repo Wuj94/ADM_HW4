@@ -7,7 +7,7 @@ Incoming, a summary of the files of this repository. To access to a document jus
 
 ### 2. First Part: Does basic house information reflect house's description?
 
-#### **Functions and classes files**:
+#### **Functions**:
 
 - **[scraper.py](https://github.com/Wuj94/ADM_HW4/blob/master/scraper.py):**
 - **[preprocessing.py](https://github.com/Wuj94/ADM_HW4/blob/master/preprocessing.py):**
@@ -17,18 +17,16 @@ Incoming, a summary of the files of this repository. To access to a document jus
 - **[wordcloud.py](https://github.com/Wuj94/ADM_HW4/blob/master/wordcloud.py):**
  
 #### **Databases:**
+
 - **[datasetindex.csv](https://raw.githubusercontent.com/Wuj94/ADM_HW4/master/datasetIndex.csv):** 
 - **[datasetIndex_preprocessed.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datasetIndex_preprocessed.csv):** 
 - **[datastIndex_infmatrix.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datastIndex_infmatrix.csv):** 
 - **[immobiliare2.csv](https://github.com/Wuj94/ADM_HW4/blob/master/immobiliare2.csv):** 
 
-
-- 
 ### 3. Second Part: Find the duplicates!
 
-#### **Functions and classes files**:
+#### **Functions**:
 
-- 
 #### **Databases:**
-- 
+
 
