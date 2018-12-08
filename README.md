@@ -9,7 +9,7 @@ Incoming, a summary of the files of this repository. To access to a document jus
 
 #### **Functions**:
 
-- **[scraper.py](https://github.com/Wuj94/ADM_HW4/blob/master/scraper.py):**
+- **[scraper.py](https://github.com/Wuj94/ADM_HW4/blob/master/scraper.py):** class, that takes from the site www.inmobiliare.it: title, link, price, locali, superficie, bagni, piano snd description, for # appartaments.  
 - **[preprocessing.py](https://github.com/Wuj94/ADM_HW4/blob/master/preprocessing.py):**
 - **[datastes.py](https://github.com/Wuj94/ADM_HW4/blob/master/datastes.py):**
 - **[matrixbuilder.py](https://github.com/Wuj94/ADM_HW4/blob/master/matrixbuilder.py):**
@@ -18,10 +18,11 @@ Incoming, a summary of the files of this repository. To access to a document jus
  
 #### **Databases:**
 
+- **[immobiliare2.csv](https://github.com/Wuj94/ADM_HW4/blob/master/immobiliare2.csv):** output of the scrapper function, dataframe with all the raw information. 
 - **[datasetindex.csv](https://raw.githubusercontent.com/Wuj94/ADM_HW4/master/datasetIndex.csv):** 
 - **[datasetIndex_preprocessed.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datasetIndex_preprocessed.csv):** 
 - **[datastIndex_infmatrix.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datastIndex_infmatrix.csv):** 
-- **[immobiliare2.csv](https://github.com/Wuj94/ADM_HW4/blob/master/immobiliare2.csv):** 
+
 
 ### 3. Second Part: Find the duplicates!
 
