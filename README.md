@@ -13,7 +13,7 @@ Incoming, a summary of the files of this repository. To access to a document jus
 - **[preprocessing.py](https://github.com/Wuj94/ADM_HW4/blob/master/preprocessing.py):** class that takes as an input, the raw data, and returns the data preprocessed. 
 - **[matrixbuilder.py](https://github.com/Wuj94/ADM_HW4/blob/master/matrixbuilder.py):** class, that takes as an input, the preprocessed data, and return the information matrix and the desription matrix.
 - **[clustering.py](https://github.com/Wuj94/ADM_HW4/blob/master/clustering.py):** thid file contains a class that preforms the K-Means clustering and a function that preforms the elbow method, that computes the desire numeber of clusters, and the Jaccard Similarity ì, useful for finding the most similar clusters between methods. 
-- **[wordcloud.py](https://github.com/Wuj94/ADM_HW4/blob/master/wordcloudgenerator.py):** take as an input a list of indexes and a dataset, and returns a wordclous.
+- **[wordcloudgenerator.py](https://github.com/Wuj94/ADM_HW4/blob/master/wordcloudgenerator.py):** take as an input a list of indexes and a dataset, and returns a wordclous.
  
 #### **Databases:**
 
