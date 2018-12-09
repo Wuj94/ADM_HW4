@@ -86,4 +86,4 @@ class Scraper:
 
 s = Scraper()
 df = s.start()
-df.to_csv(path_or_buf='immobiliare2.csv', index=False)
+df.to_csv(path_or_buf='datasetIndex.csv', index=False)
