@@ -13,7 +13,12 @@ class MatrixBuilder:
         """ information matrix creator
         input: dataframe with all the information, pre-processed
         output format: dataframe"""
-        return self.df[columns_of_interest]
+        info_matrix = self.df[columns_of_interest]
+        idx = info_matrix.index
+        scaler = StandardScaler()
+        scaler.fit(info_matrix)
+        info_matrix = pd.DataFrame(scaler.transform(info_matrix), index = idx)
+        return info_matrix
 
     def __vocabulary__(self, column_name='description'):
         """input:dataframe with all the information, pre-processed
@@ -72,10 +77,23 @@ class MatrixBuilder:
                 d[i][key] = d[i][key] * inv_freq_dict[key]
         D = pd.DataFrame(d).T
         D.fillna(value=0, inplace=True)
+        
+        # Select only the columns with max values of tfiidf greater than 75%
+        counts = []
+        for i in range(1,len(D.columns)):
+            counts.append(D.iloc[:, i].values.max())
+    
+        c = pd.Series(counts)
+        c.describe()
+
+        selected_columns = c[c > c.describe()['25%']]
+        selected_columns = list(good_columns.index)
+
+        D= D.iloc[:, selected_columns]
         return D
 
 
-df = pd.read_csv("immobiliare2preprocessed.csv")
+df = pd.read_csv("datasetIndex_preprocessed.csv")
 mb = MatrixBuilder(df)
-mb.information_matrix().to_csv('inf_matrix.csv')
-mb.Tfidf().to_csv('tfidf_matrix.csv')
+mb.information_matrix().to_csv('datastIndex_infmatrix.csv')
+mb.Tfidf().to_csv('datasetIndex_tfidf.csv')
