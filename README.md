@@ -21,7 +21,7 @@ Incoming, a summary of the files of this repository. To access to a document jus
 - **[datasetIndex_preprocessed.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datasetIndex_preprocessed.csv):** 
 - **[datastIndex_infmatrix.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datastIndex_infmatrix.csv):** 
 - **[datastIndex_infmatrix.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datastIndex_infmatrix.csv):** 
-- **[datastIndex_tfidf.csv]:**
+- **datastIndex_tfidf.csv:**
 
 
 ### 3. Second Part: Find the duplicates!
