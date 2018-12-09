@@ -51,6 +51,8 @@ class KM:
             
         matplt.figure()
         matplt.plot(list(ssd_dict.keys()), list(ssd_dict.values()))
+        matplt.xlabel("Number of clusters")
+        matplt.ylabel("Sum of squared distances")
         matplt.show()
         
 
@@ -67,7 +69,7 @@ class JS:
     def __jaccard__(clust_dict1, clust_dict2):
         
         # Initialize the similarity matrix, filling it with 0s
-        sim_matrix = [[0 for i in range(len(clust_dict1))] for j in range(len(clust_dict1))]
+        sim_matrix = [[0 for i in range(len(clust_dict2))] for j in range(len(clust_dict1))]
 
         # Compute the Jaccard Similarity score for each pair of clusters in the clusters dictionaries
         for cl1 in clust_dict1:
@@ -93,20 +95,27 @@ class JS:
 
         # Fill the similarity list with all the scores in the similarity matrix
         for row in sim_matrix:
-            sim_list = sim_list + [score for score in row]
+            sim_list = sim_list + [cl for cl in row]
 
         # Organize the similarity list in decreasing order
         sim_list = sorted(sim_list)[::-1]
         
         # Initialize list of top 3 couples of similar clusters
         top_3 = list()
+        
+        # Initialize lists of already chosen clusters (one for each group)
+        chosen1 = list()
+        chosen2 = list()
 
         # Fill it with the couples (tuples) of clusters corresponding to the top 3 similarity scores
-        for k in range(3):
+        for k in range(len(sim_list)):
             for i in range(len(sim_matrix)):
                 for j in range(len(sim_matrix[i])):
                     if (sim_list[k] == sim_matrix[i][j]) and (len(top_3) < 3):
-                        top_3.append((i, j))
+                        if not (i in chosen1) and not (j in chosen2):
+                            top_3.append((i, j))
+                            chosen1.append(i)
+                            chosen2.append(j)
 
         # Return top 3 pairs of clusters
         return top_3
