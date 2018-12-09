@@ -17,10 +17,11 @@ Incoming, a summary of the files of this repository. To access to a document jus
  
 #### **Databases:**
 
-- **[immobiliare2.csv](https://github.com/Wuj94/ADM_HW4/blob/master/immobiliare2.csv):** output of the scrapper function, dataframe with all the raw information. 
-- **[datasetIndex_preprocessed.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datasetIndex_preprocessed.csv):** 
 - **[datasetindex.csv](https://raw.githubusercontent.com/Wuj94/ADM_HW4/master/datasetIndex.csv):** 
+- **[datasetIndex_preprocessed.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datasetIndex_preprocessed.csv):** 
 - **[datastIndex_infmatrix.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datastIndex_infmatrix.csv):** 
+- **[datastIndex_infmatrix.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datastIndex_infmatrix.csv):** 
+- **[datastIndex_tfidf.csv]:**
 
 
 ### 3. Second Part: Find the duplicates!
