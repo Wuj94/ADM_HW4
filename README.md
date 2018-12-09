@@ -28,6 +28,5 @@ Incoming, a summary of the files of this repository. To access to a document jus
 
 #### **Functions**:
 
-#### **Databases:**
 
 
