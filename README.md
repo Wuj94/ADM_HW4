@@ -3,9 +3,9 @@ Repository for the 4th homework of the course ADM @ Sapienza University of Rome 
 
 Incoming, a summary of the files of this repository. To access to a document just press the link in the name of the corresponding file.
 
-### 1. **[Homework_4](https://github.com/Wuj94/ADM_HW4/blob/master/Homework_4.ipynb)**: 
+### **[Homework_4](https://github.com/Wuj94/ADM_HW4/blob/master/Homework_4.ipynb)**: 
 
-### 2. First Part: Does basic house information reflect house's description?
+### First Part: Does basic house information reflect house's description?
 
 #### **Functions**:
 
@@ -24,7 +24,7 @@ Incoming, a summary of the files of this repository. To access to a document jus
 - **datastIndex_tfidf.csv:**
 
 
-### 3. Second Part: Find the duplicates!
+### Second Part: Find the duplicates!
 
 #### **Functions**:
 
