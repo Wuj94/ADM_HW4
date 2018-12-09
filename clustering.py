@@ -93,7 +93,7 @@ class JS:
 
         # Fill the similarity list with all the scores in the similarity matrix
         for row in sim_matrix:
-            sim_list = sim_list + [cl for cl in row]
+            sim_list = sim_list + [score for score in row]
 
         # Organize the similarity list in decreasing order
         sim_list = sorted(sim_list)[::-1]
