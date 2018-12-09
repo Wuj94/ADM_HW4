@@ -2,6 +2,7 @@ import numpy as np
 from sklearn.cluster import KMeans
 import pandas as pd
 import matplotlib.pyplot as matplt
+from sklearn.preprocessing import StandardScaler
 
 
 # Define K-Means class
@@ -28,7 +29,7 @@ class KM:
 
         # Fill the dictionary with the clusters
         for i in range(len(self.df)):
-            cluster = self.df["cluster"][i]
+            cluster = self.df["cluster"].iloc[i]
             if cluster not in clust_dict:
                 clust_dict[cluster] = [i]
             else:
@@ -109,22 +110,3 @@ class JS:
 
         # Return top 3 pairs of clusters
         return top_3
-    
-inf_df = pd.read_csv('inf_matrix.csv')
-tfidf_df = pd.read_csv('tfidf_matrix.csv')
-
-inf_kmeans = KM(inf_df)
-tfidf_kmeans = KM(tfidf_df)
-
-inf_clusters = inf_kmeans.clustering(5)
-tfidf_clusters = tfidf_kmeans.clustering(5)
-
-print("\n\nInformation matrix clusters:\n")
-print(inf_clusters)
-print("\n\nTFIDF matrix clusters:\n")
-print(tfidf_clusters)
-
-sim = JS(inf_clusters, tfidf_clusters)
-top_3 = sim.find_top_3()
-print("\n\nTop 3 pairs of similar clusters:\n")
-print(top_3)
