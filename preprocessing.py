@@ -96,10 +96,17 @@ class Preprocesser:
     def tokenize(data):
         """Tokenize a string"""
         return data.split()
+    
+    def drop_outliers(data):
+        self.df = self.df.drop(labels = [12330], axis = 0)
+        self.df = self.df.drop(labels = [11090], axis = 0)
+        
+    def drop_Unnamed(data):
+        self.df = self.df.drop(labels = ["Unnamed: 0"], axis = 1)
+        
 
-
-df = pd.read_csv("/home/data/MScDS/ADM/ADM_HW4/immobiliare2.csv")
+df = pd.read_csv("/home/data/MScDS/ADM/ADM_HW4/datasetIndex.csv")
 print('---preprocessing---')
 p = Preprocesser(df)
 p.preprocess()
-df.to_csv("immobiliare2preprocessed.csv")
+df.to_csv("datasetIndex_preprocessed.csv")
