@@ -8,7 +8,7 @@ Jupiter Notebook, with the code and coments of the entire homework
 
 ### First Part: Does basic house information reflect house's description?
 
-#### **Functions**:
+#### **Modules**:
 
 - **[scraper.py](https://github.com/Wuj94/ADM_HW4/blob/master/scraper.py):** functions related to the scraping process. 
 - **[preprocessing.py](https://github.com/Wuj94/ADM_HW4/blob/master/preprocessing.py):** functions related to the preprocesing process.
@@ -26,7 +26,7 @@ Jupiter Notebook, with the code and coments of the entire homework
 
 ### Second Part: Find the duplicates!
 
-#### **Functions**:
+All the code and comments of this parts, they are contained in the main file **[Homework_4 (https://github.com/Wuj94/ADM_HW4/blob/master/Homework_4.ipynb)**
 
 
 
