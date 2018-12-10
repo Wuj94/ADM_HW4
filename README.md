@@ -17,12 +17,10 @@ Incoming, a summary of the files of this repository. To access to a document jus
  
 #### **Databases:**
 
-- **[datasetindex.csv](https://raw.githubusercontent.com/Wuj94/ADM_HW4/master/datasetIndex.csv):** 
-- **[datasetIndex_preprocessed.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datasetIndex_preprocessed.csv):** 
-- **[datastIndex_infmatrix.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datastIndex_infmatrix.csv):** 
-- **[datastIndex_infmatrix.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datastIndex_infmatrix.csv):** 
-- **datastIndex_tfidf.csv:**
-
+- **[datasetindex.csv](https://raw.githubusercontent.com/Wuj94/ADM_HW4/master/datasetIndex.csv):** database with all the announcements, after the scrapping process.
+- **[datasetIndex_preprocessed.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datasetIndex_preprocessed.csv):** database, that contains the data from "datasetindex.csv", prepocessed.
+- **[datastIndex_infmatrix.csv](https://github.com/Wuj94/ADM_HW4/blob/master/datastIndex_infmatrix.csv):** database, with the informatrion matrix. Input for clusterization. 
+- **datastIndex_tfidf.csv:** database, with the description matrix. Input for clusterization. Unfortunately, not available, due to its weight.
 
 ### Second Part: Find the duplicates!
 
