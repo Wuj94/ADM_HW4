@@ -3,17 +3,18 @@ Repository for the 4th homework of the course ADM @ Sapienza University of Rome 
 
 Incoming, a summary of the files of this repository. To access to a document just press the link in the name of the corresponding file.
 
-### **[Homework_4](https://github.com/Wuj94/ADM_HW4/blob/master/Homework_4.ipynb)**: 
+### **[Homework_4](https://github.com/Wuj94/ADM_HW4/blob/master/Homework_4.ipynb)**
+Jupiter Notebook, with the code and coments of the entire homework
 
 ### First Part: Does basic house information reflect house's description?
 
 #### **Functions**:
 
-- **[scraper.py](https://github.com/Wuj94/ADM_HW4/blob/master/scraper.py):** class fu that takes from the site www.inmobiliare.it: title, link, price, locali, superficie, bagni, piano snd description, for # appartaments.  
-- **[preprocessing.py](https://github.com/Wuj94/ADM_HW4/blob/master/preprocessing.py):** class that takes as an input, the raw data, and returns the data preprocessed. 
-- **[matrixbuilder.py](https://github.com/Wuj94/ADM_HW4/blob/master/matrixbuilder.py):** class, that takes as an input, the preprocessed data, and return the information matrix and the desription matrix.
-- **[clustering.py](https://github.com/Wuj94/ADM_HW4/blob/master/clustering.py):** thid file contains a class that preforms the K-Means clustering and a function that preforms the elbow method, that computes the desire numeber of clusters, and the Jaccard Similarity ì, useful for finding the most similar clusters between methods. 
-- **[wordcloudgenerator.py](https://github.com/Wuj94/ADM_HW4/blob/master/wordcloudgenerator.py):** take as an input a list of indexes and a dataset, and returns a wordclous.
+- **[scraper.py](https://github.com/Wuj94/ADM_HW4/blob/master/scraper.py):** 
+- **[preprocessing.py](https://github.com/Wuj94/ADM_HW4/blob/master/preprocessing.py):** 
+- **[matrixbuilder.py](https://github.com/Wuj94/ADM_HW4/blob/master/matrixbuilder.py):** 
+- **[clustering.py](https://github.com/Wuj94/ADM_HW4/blob/master/clustering.py):** 
+- **[wordcloudgenerator.py](https://github.com/Wuj94/ADM_HW4/blob/master/wordcloudgenerator.py):** t
  
 #### **Databases:**
 
