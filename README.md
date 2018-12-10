@@ -13,7 +13,7 @@ Jupiter Notebook, with the code and coments of the entire homework
 - **[scraper.py](https://github.com/Wuj94/ADM_HW4/blob/master/scraper.py):** functions related to the scraping process. 
 - **[preprocessing.py](https://github.com/Wuj94/ADM_HW4/blob/master/preprocessing.py):** functions related to the preprocesing process.
 - **[matrixbuilder.py](https://github.com/Wuj94/ADM_HW4/blob/master/matrixbuilder.py):** functions that build the information and the description matrices. 
-- **[clustering.py](https://github.com/Wuj94/ADM_HW4/blob/master/clustering.py):** functions of k-means, Elbow Method and Jaccard Similarity. 
+- **[clustering.py](https://github.com/Wuj94/ADM_HW4/blob/master/clustering.py):** functions of k-means++, Elbow Method and Jaccard Similarity. 
 - **[wordcloudgenerator.py](https://github.com/Wuj94/ADM_HW4/blob/master/wordcloudgenerator.py):** wordcloud generator function. 
 - **[mykmeans.py](https://github.com/Wuj94/ADM_HW4/blob/master/mykmeans.py):** homemade k-means algorithm. 
  
