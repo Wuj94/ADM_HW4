@@ -26,7 +26,7 @@ Jupiter Notebook, with the code and coments of the entire homework
 
 ### Second Part: Find the duplicates!
 
-All the code and comments of this parts, they are contained in the main file **[Homework_4 (https://github.com/Wuj94/ADM_HW4/blob/master/Homework_4.ipynb)**
+All the code and comments of this parts, they are contained in the main file **[Homework_4(https://github.com/Wuj94/ADM_HW4/blob/master/Homework_4.ipynb)**
 
 
 
