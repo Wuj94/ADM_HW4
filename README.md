@@ -15,6 +15,7 @@ Jupiter Notebook, with the code and coments of the entire homework
 - **[matrixbuilder.py](https://github.com/Wuj94/ADM_HW4/blob/master/matrixbuilder.py):** functions that build the information and the description matrices. 
 - **[clustering.py](https://github.com/Wuj94/ADM_HW4/blob/master/clustering.py):** functions of k-means, Elbow Method and Jaccard Similarity. 
 - **[wordcloudgenerator.py](https://github.com/Wuj94/ADM_HW4/blob/master/wordcloudgenerator.py):** wordcloud generator function. 
+- **[mykmeans.py](https://github.com/Wuj94/ADM_HW4/blob/master/mykmeans.py):** homemade k-means algorithm. 
  
 #### **Databases:**
 
